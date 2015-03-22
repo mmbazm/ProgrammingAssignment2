@@ -1,7 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
 ## This function get a matrix and checks it, if the matrix is invertible.
 ## This fuction is like a class in OOP that, we define functions(set and get,...) and mat_inv is the attribute of our class.  
 makeCacheMatrix <- function(x = matrix()) {
@@ -28,8 +24,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-
-## Write a short comment describing this function
 ## This function gets in input an object of makeCacheMatrix(a Matrix) and the calculates the inverse matrix using Slove()
 ## function. It checks in the cache if the inverse of input matrix is already in the cache or no. if yes, so it doesn't compute the inverse of input matrix and returns directly the inverse of matrix from cache.   
 cacheSolve <- function(x, ...) {
